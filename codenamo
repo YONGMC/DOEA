@@ -229,7 +229,7 @@ static void editMember(Scanner input) {
         if (name == null) return false;
         
         //REGULAR EXPRESSION
-        return name.matches("^[A-Z][a-zA-Z]*(\\s+[A-Z][a-zA-Z]*)+$");
+        return name.matches("^[A-Z][a-z]*(\\s+[A-Z][a-z]*)*$");
     }
 
     // condition sa Contact number dapat ( 09 ) mag start
